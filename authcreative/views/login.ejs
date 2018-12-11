@@ -1,0 +1,26 @@
+<%include partials/header %>
+
+
+<h1 class="text-center"> LOGIN  </h1>
+<hr>
+
+<form action='/login' method="POST">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" name="username" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">P</span>
+        </div>
+        <input type="password" name="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+    </div>
+    
+    <!--<input type="text" name="username" placeholder="username">-->
+    <!--<input type="password" name="password" placeholder="password">-->
+    <button class="btn btn-outline-success btn-block">Login</button>
+</form>
+
+<%include partials/footer %>

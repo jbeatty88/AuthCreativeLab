@@ -1,0 +1,12 @@
+body {
+  margin: 0 !important;
+}
+
+svg {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+#background {
+  background-image: linear-gradient(#463C77, #0E355D) !important;
+}
